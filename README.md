@@ -37,7 +37,10 @@ Java Swing を使用した、機能豊富なペイントアプリケーション
 ##  使い方
 
 ### 実行方法
-
+---
+パターン1 Javaファイルで起動
+1. ninthをダウンロードをする。
+2. vscodeなどでninthを開くテキストエディタを開く
 ```bash
 # Maven でコンパイル
 mvn clean compile
@@ -45,7 +48,13 @@ mvn clean compile
 # アプリケーションを実行（ファイル名は省略可能）
 mvn exec:java -Dexec.mainClass="ninth.Paint" -Dexec.args="filename.dat"
 ```
+---
+パターン2
 
+1. dowloadをダウンロードをする。
+2. .exeファイルを開く
+
+---
 ### 基本的な操作フロー
 
 1. **図形を描画する**
