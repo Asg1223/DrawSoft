@@ -1,7 +1,5 @@
 # DrawSoft
 ----
-# Paint Application - ペイントアプリケーション
-
 Java Swing を使用した、機能豊富なペイントアプリケーションです。Microsoft Word 風のリボン UI（タブ式）を採用しており、直感的に様々な図形を描画できます。
 
 ##  主な機能
@@ -72,10 +70,10 @@ mvn exec:java -Dexec.mainClass="ninth.Paint" -Dexec.args="filename.dat"
 5. **ファイルを読み込み**
    - ファイルタブの「開く」で保存済みのファイルを読み込み
 
-## 📦 プロジェクト構成
+##  プロジェクト構成
 
 ```
-src/main/java/DrawSoft/
+src/main/java/DrawSoft/ninth
 ├── Paint.java          # メインウィンドウ、UI構築、イベント管理
 ├── PaintCanvas.java    # 描画キャンバス、マウスイベント処理
 ├── Figure.java         # 図形の抽象基底クラス
@@ -162,7 +160,7 @@ public class Triangle extends Figure {
 - **JDK 21** - Java Development Kit
 
 ##  ライセンス
-
+   Apache License 2.0
 
 ---
 
